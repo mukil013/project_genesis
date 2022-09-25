@@ -1,0 +1,293 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.top_fixed_nav_bar{
+    position: fixed;
+    top: 0%;
+    height: 4vh;
+    width: 100vw;
+    padding: .2rem 2rem .2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 .5rem 2rem rgba(0, 0, 0, 0.137);
+    z-index: 10;
+}
+.logo_text{
+    font-size: 1.5rem;
+    color: #222;
+}
+.nav_bar_options ul{
+    font-size: .8rem;
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+}
+.nav_bar_options ul li{
+    list-style: none;
+}
+.nav_bar_options ul li a {
+    text-decoration: none;
+    color: #9e9e9e;
+    padding: 1rem;
+    transition: .2s ease-in-out;
+}
+.nav_bar_options ul li a:hover{
+    font-size: 1rem;
+    color: #222;
+    border-bottom: .2rem solid rgb(76, 76, 252);
+}
+section{
+    height: 100vh;
+    width: 100vw;
+}
+.landing_page{
+    background-image: linear-gradient(45deg,rgba(255, 255, 255, .5),transparent),url('/media/students.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    
+}
+.logo_landing{
+    font-size: 8rem;
+    mix-blend-mode:difference;
+    transform: translateY(-10vh);
+    font-weight: 900;
+    color: rgb(215, 219, 223);
+}
+.quote{
+    font-size: 1rem;
+    transform: translateY(-8vh);
+}
+#higher_education ,#scholarship{
+    padding: 2rem;
+    transform: translateY(5rem);
+    margin: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    color: rgb(48, 48, 48);
+    background-color: #fff;
+    border: none;
+    transition: .2s all ease-in-out;
+}
+#higher_education:hover ,#scholarship:hover{
+    border: none;
+    background-color: #333;
+    color: #fff;
+}
+#explore{
+    position: absolute;
+    bottom: 5%;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #3f3f3fc2;
+    border: none;
+    border-radius: .5rem;
+}
+#explore a{
+    text-decoration: none;
+    color: rgb(160, 158, 158);
+    transition: .3s all ease-in-out;
+}
+#explore a:hover{
+    backdrop-filter: blur(1rem);
+    color: #fff;
+    box-shadow: 0 1rem 2rem rgba(34, 34, 34, 0.8);
+}
+.footer{
+    height: 40vh;
+    width: 100vw;
+    background-color: #fff ;
+    color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.down_text{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.social{
+    height: 12vh;
+    width: 24vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+.social1{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-size: cover;
+    background-image: url('/media/1181190_email_gmail_google_mail_icon.png');
+}
+.social2{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-size: cover;
+    background-image: url('/media/5282541_fb_social\ media_facebook_facebook\ logo_social\ network_icon.png');
+}
+.social3{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-size: cover;
+    background-image: url('/media/5282542_linkedin_network_social\ network_linkedin\ logo_icon.png');
+}
+.social4{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-size: cover;
+    background-image: url('/media/5282544_camera_instagram_social\ media_social\ network_instagram\ logo_icon.png');
+}
+.social5{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-size: cover;
+    background-image: url('/media/5282551_tweet_twitter_twitter\ logo_icon.png');
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('/media/ad.jpeg');
+    background-size: cover;
+    background-position: center;
+
+}
+.about_paragraph{
+    font-size: 1.5rem;
+    backdrop-filter: blur(1rem);
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.199);
+    color: #000;
+}
+.about_paragraph span{
+    font-size: 3rem;
+    font-style: italic;
+}
+.about_title{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: rgb(46, 46, 46);
+}
+.more{
+    padding: 6rem;
+}
+.card{
+    background-color: aliceblue;
+    padding: 1rem;
+    width: fit-content;
+    font-size: 1rem;
+}
+.apply{
+    background-color: cornflowerblue;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+.title_more{
+    padding: 2rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+.cards{
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+}
+.cards2{
+    height: 25vh;
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+.more_for_more{
+    width: fit-content;
+    font-size: 1.5rem;
+    text-align: center;
+    color: aliceblue;
+    background-color: cornflowerblue;
+    border-radius: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
+}
+.adjustment{
+    width: 100%;
+    height: 25%;
+    display: grid;
+    place-content: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+}
+.top_university{
+    font-size: 2rem;
+}
+.clg_info{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ececec;
+}
+.img-responsive{
+    height: 25vh;
+    aspect-ratio: 1;
+}
+.a,.b,.c,.d{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: .8rem;
+}
+.type{
+    padding: 1rem;
+}
+#entrance{
+    height: 60vh;
+    width: 100vw;
+    padding: 1rem;
+    background-color: #9e9e9e;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.profile{
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+.profiles{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.profile-img{
+    height: 15rem;
+    aspect-ratio: 1;
+    border-radius: .5rem;
+}
